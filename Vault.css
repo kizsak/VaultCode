@@ -1,0 +1,83 @@
+#avatar-window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  max-width: 300px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+#avatar-display {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid #ddd;
+}
+
+#avatar-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#attribute-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+#attribute-table th,
+#attribute-table td {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+#attribute-table th {
+  background-color: #f2f2f2;
+}
+
+#attribute-table td, #attribute-table th {
+  color: black; /* Ensures text is black */
+}
+
+
+
+#story-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+#avatar-window {
+  margin: 10px 0;
+}
+
+#avatar-display {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+#attribute-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+#attribute-table td,
+#attribute-table th {
+  font-size: 12px;
+  padding: 4px;
+}
