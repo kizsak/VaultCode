@@ -1,0 +1,2 @@
+(click: "Look closer")[(replace: ?description)[You notice something hidden in the text...]]
+<span id="description">A faint inscription is carved into the wall.</span>
