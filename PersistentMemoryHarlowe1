@@ -1,0 +1,3 @@
+(set: $choice to "")
+[[Choose the red door->RedRoom]](set: $choice to "red")
+[[Choose the blue door->BlueRoom]](set: $choice to "blue")
