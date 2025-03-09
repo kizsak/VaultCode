@@ -1,0 +1,8 @@
+(set: $password to "")
+(prompt: "What's the secret word?" )[(set: $password to it)]
+(if: $password is "unlock")[
+    The loop shatters! [[Escape->Next Passage]]
+]
+(else:)[
+    Wrong answer. You are still trapped. [[Try Again->Loop Passage]]
+]
