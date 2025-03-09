@@ -1,0 +1,7 @@
+(set: $foundSecret to false)
+(if: $foundSecret)[
+    [[Enter the Hidden Room->SecretRoom]]
+]
+(else:)[
+    You don’t see anything unusual here... yet.
+]
