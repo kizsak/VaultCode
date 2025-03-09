@@ -1,0 +1,10 @@
+(set: $timeLeft to 10)
+
+(if: $timeLeft > 0)[
+    (print: "Time remaining: " + $timeLeft)
+    (set: $timeLeft to $timeLeft - 1)
+    (goto: "CountdownPassage")
+]
+(else:)[
+    Too late! The Vault locks forever...
+]
