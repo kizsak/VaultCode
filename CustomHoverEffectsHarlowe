@@ -1,0 +1,4 @@
+(hook: "hoveredText")[
+    (mouseover: ?hoveredText)[(replace: ?hoveredText)[The text shifts before your eyes...]]
+]
+<span id="hoveredText">A strange phrase is inscribed.</span>
