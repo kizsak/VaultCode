@@ -1,0 +1,9 @@
+(set: $state to 1)
+
+(click: "Change the text")[
+    (set: $state to $state + 1)
+    (if: $state > 3)[(set: $state to 1)]
+    (replace: ?text)[(if: $state is 1)[First state.] (if: $state is 2)[Second state.] (if: $state is 3)[Third state.]]
+]
+
+<span id="text">First state.</span>
