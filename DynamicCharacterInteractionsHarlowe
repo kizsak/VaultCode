@@ -1,0 +1,7 @@
+(set: $trustLevel to 0)
+
+(click: "Apologize")[(set: $trustLevel to $trustLevel + 1)]
+(click: "Ignore the AI")[(set: $trustLevel to $trustLevel - 1)]
+
+(if: $trustLevel > 0)[The AI regards you warmly.]
+(if: $trustLevel < 0)[The AI refuses to help.]
