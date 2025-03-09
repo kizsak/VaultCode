@@ -1,0 +1,8 @@
+(set: $choice1Made to false)
+(set: $choice2Made to false)
+
+(if: not $choice1Made)[(click: "Option 1")[(set: $choice1Made to true) (replace: ?option1)[You chose Option 1.]]]
+(if: not $choice2Made)[(click: "Option 2")[(set: $choice2Made to true) (replace: ?option2)[You chose Option 2.]]]
+
+<span id="option1"></span>
+<span id="option2"></span>
