@@ -1,0 +1,3 @@
+(set: $event to (either: "You find a clue.", "Nothing happens.", "Something moves in the shadows."))
+
+(print: $event)
