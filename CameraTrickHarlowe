@@ -1,0 +1,8 @@
+(set: $facing to "north")
+
+[[Turn left->(set: $facing to "west")]]
+[[Turn right->(set: $facing to "east")]]
+
+(if: $facing is "north")[You see a towering bookshelf.]
+(if: $facing is "west")[A flickering terminal hums quietly.]
+(if: $facing is "east")[There’s a locked door here.]
