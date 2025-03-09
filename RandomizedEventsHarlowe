@@ -1,0 +1,2 @@
+(set: $event to (either: "a whisper in the dark", "a door creaks open", "a file corrupts"))
+(print: "You hear " + $event + ".")
