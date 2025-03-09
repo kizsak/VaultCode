@@ -1,0 +1,8 @@
+(set: $hasKey to false)
+(click: "Pick up the key")[(set: $hasKey to true)]
+(if: $hasKey)[
+    [[Use the key to open the door->OpenDoor]]
+]
+(else:)[
+    The door is locked. Maybe there’s a key somewhere?
+]
