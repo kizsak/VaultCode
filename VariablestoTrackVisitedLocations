@@ -1,0 +1,13 @@
+(set: $visitedLibrary to false)
+(set: $visitedLab to false)
+(set: $visitedArchives to false)
+
+[[Library->LibraryRoom]]
+[[Lab->LabRoom]]
+[[Archives->ArchivesRoom]]
+
+(if: $visitedLibrary and $visitedLab and $visitedArchives)[
+    [[Enter the Final Room->FinalRoom]]
+]
+
+(set: $visitedLab to true)
