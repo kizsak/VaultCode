@@ -1,0 +1,10 @@
+(set: $doorUnlocked to false)
+(click: "Turn the key")[
+    (set: $doorUnlocked to true)
+]
+(if: $doorUnlocked)[
+    The door creaks open. [[Enter->Next Passage]]
+]
+(else:)[
+    The door is locked. Try turning the key first.
+]
