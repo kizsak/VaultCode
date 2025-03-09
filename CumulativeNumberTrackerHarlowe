@@ -1,0 +1,8 @@
+(set: $counter to 0)
+
+(click: "Press the button")[
+    (set: $counter to $counter + 1)
+    (replace: ?counterDisplay)[You have pressed the button $counter times.]
+]
+
+<span id="counterDisplay">You have pressed the button 0 times.</span>
