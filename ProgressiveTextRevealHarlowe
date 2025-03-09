@@ -1,0 +1,4 @@
+(click: "Read more")[
+    (replace: ?moreText)[Here’s the next part of the story...]
+]
+<span id="moreText" hidden></span>
