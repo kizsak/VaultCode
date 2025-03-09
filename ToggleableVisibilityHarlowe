@@ -1,0 +1,2 @@
+(click: "Toggle Details")[(toggle: ?details)]
+<span id="details" hidden>The hidden message appears.</span>
