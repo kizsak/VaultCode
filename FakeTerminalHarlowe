@@ -1,0 +1,8 @@
+(set: $command to "")
+(prompt: "Enter command:")[(set: $command to it)]
+(if: $command is "restore")[
+    System rebooting... [[Continue->NextRoom]]
+]
+(else:)[
+    Invalid command. Try "restore".
+]
