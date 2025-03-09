@@ -1,1 +1,2 @@
-
+(if: $choice is "red")[You feel a lingering heat, as if the red door’s flames still haunt you.]
+(if: $choice is "blue")[A faint whisper echoes—a memory from the blue void.]
