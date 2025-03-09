@@ -1,0 +1,4 @@
+(set: $taskCompleted to false)
+
+(if: $taskCompleted)[[[Continue->NextPassage]]]
+(else:)[You must complete the task before continuing.]
