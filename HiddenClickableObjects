@@ -1,0 +1,11 @@
+(set: $key1 to false)
+(set: $key2 to false)
+(set: $key3 to false)
+
+(click: "Examine the drawer")[ (set: $key1 to true) ]
+(click: "Look under the rug")[ (set: $key2 to true) ]
+(click: "Check behind the painting")[ (set: $key3 to true) ]
+
+(if: $key1 and $key2 and $key3)[
+    The safe unlocks! [[Open Safe->NextRoom]]
+]
